@@ -11,7 +11,7 @@ const {
 
 const MyMapComponent = compose(
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCoh-4B3epu-nZWh6lqotlfJYibQe6n6KY&v=3.exp&libraries=geometry,drawing,places",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?key="+KEY+"&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `700px` }} />,
     mapElement: <div style={{ height: `100%` }} />,
@@ -87,7 +87,7 @@ export default class MapWithADirectionsRenderer extends Component {
       console.log(this.state.directions)
     return (
       <MyMapComponent isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoh-4B3epu-nZWh6lqotlfJYibQe6n6KY&callback=initMap"
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key="KEY"&callback=initMap"
       loadingElement={<div style={{ height: `100%` }} />}
       containerElement={<div style={{ height: `700px` }} />}
       mapElement={<div style={{ height: `100%` }} />}

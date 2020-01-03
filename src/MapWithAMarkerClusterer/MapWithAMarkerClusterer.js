@@ -80,7 +80,7 @@ export default class MapWithAMarkerClusterer extends Component {
   render() {
     return (
       <MyMapComponent isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtMmz_PqUBKaJikZd6RFeVb4uKBmdN9kQ&callback=initMap"
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key="KEY"&callback=initMap"
       loadingElement={<div style={{ height: `100%` }} />}
       containerElement={<div style={{ height: `700px` }} />}
       mapElement={<div style={{ height: `100%` }} />}
