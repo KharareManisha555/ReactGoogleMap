@@ -1,0 +1,23 @@
+.site h2{
+    color: var(--orange-color);
+    font-weight: bold;
+}
+.site ul>li>a{
+    text-align: justify;
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 22px;
+    /* padding: 10px; */
+    text-align: justify;
+}
+.site ul>li{
+    text-align: justify;
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 22px;
+    /* padding: 10px; */
+    text-align: justify;
+}
+.padLeft15{
+    padding-left: 15px !important;
+}

@@ -1,0 +1,70 @@
+body {
+  font-family: var(--primary-font);
+  background-color: #fff !important;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /* background-image: url("/images/banner3.jpg") */
+}
+#root{
+  /* height: 1500px;
+    background-size: cover;
+    background: #f5f5f5de; */
+}
+.orangeBackground{
+  background: #f3b94d;
+}
+.textAlignRight{
+  text-align: right;
+}
+:root {
+  --orange-background:#BC9E13;
+  --orange-hover:#BC9E13;
+  --black-background:#333;
+  --white-background:#fff;
+  --orange-color:#BC9E13;
+  --white-color:#fff;
+  --black-color:#333;
+  --primary-font:Arial, Helvetica, sans-serif;
+  --custom-font:'FjallaOne-Regular';
+}
+.blackBg{
+  background-color: var(--black-background) !important; 
+}
+.whiteColor{
+  color: var(--white-color) !important;
+}
+.blackColor{
+  color: var(--black-color) !important;
+}
+.NOpadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.blockModal {
+  margin-top: 15%;
+}
+.blockModal-body{
+  text-align: center;
+}
+.cancelModal{
+  background: var(--orange-background);
+  border-radius: 20px;
+  border: 1px solid #333;
+}
+.blockModal-body h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.error{
+  color: #ff730d !important;
+} 
+@font-face{
+  font-family:'FjallaOne-Regular';
+  src: url("/fonts/FjallaOne-Regular.ttf");
+}
+.orange{
+  background: orange !important;
+}
+.black{
+  background: black !important;
+}
